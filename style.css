@@ -1,0 +1,150 @@
+/* Defines reusable values */
+:root {
+   --clr-white: white;
+   --clr-grey: #fdfdfe;
+   --clr-neutral: #e8e7ea;
+   --clr-neutral-alt: #848181;
+   --clr-purple: #ac83ba;
+   --clr-orange: #fda118;
+}
+
+/* Utility Classes */
+.orange {
+   color: var(--clr-orange);
+}
+.white {
+   color: var(--clr-white);
+}
+.font-accent {
+   font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+.bg1 {
+   background: url(img/bg1.jpg);
+   background-size: cover;
+}
+
+.navbar {
+   font-size: 0.875em;
+}
+
+.navbar-brand {
+   font-size: 2em;
+}
+
+.josh {
+   font-weight: bold;
+   letter-spacing: -2px;
+}
+
+.orange,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+   color: var(--clr-orange);
+}
+
+.tag {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 140px;
+   text-align: right;
+   margin-right: 15%;
+}
+
+.tag h1 {
+   width: 341px;
+   font-size: 7em;
+   letter-spacing: -10px;
+   font-weight: 800;
+   line-height: 75%;
+   padding-bottom: 10%;
+}
+
+/* About */
+
+.about-bg {
+   background-color: var(--clr-neutral);
+   padding: 2%;
+}
+
+.about-bg h2 {
+   font-size: 2.4em;
+   font-weight: 800;
+}
+
+.particle {
+   text-align: right;
+   margin-right: 150px;
+   font-size: 1.8em;
+   font-style: italic;
+}
+
+.about-text {
+   margin-left: 40px;
+   margin-right: 40px;
+   font-size: 1.4em;
+   line-height: 2em;
+}
+
+.about-bg .container .about-text::after {
+   content: "";
+   display: block;
+   width: 133px;
+   height: 10px;
+   margin: 40px auto;
+   background: var(--clr-purple);
+}
+
+/* Articles */
+
+.articles-bg {
+   background-color: var(--clr-grey);
+}
+
+.article-title {
+   font-size: 1.4em;
+   font-weight: 800;
+   margin-bottom: 0px;
+   padding-top: 20px;
+}
+
+.date {
+   font-size: 0.8em;
+   margin-top: -5px;
+   font-weight: lighter;
+   font-style: italic;
+}
+
+.read-more {
+   display: block;
+   color: var(--clr-neutral-alt);
+   font-size: 0.9em;
+   margin-bottom: 30px;
+}
+
+.articles-bg h3 {
+   padding: 30px 0;
+   font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+   background: url(img/footerbg.jpg);
+   background-size: cover;
+   /* Take the image max height from desktop design, subtract the total container height and apply equally to the top and bottom */
+   padding: calc((172px - 40px) / 2) 0;
+   width: 100%;
+   background-position: center center;
+   color: white;
+}
+
+footer .josh {
+   font-size: 0.875em;
+   letter-spacing: -1px;
+}
+
+footer p {
+   text-align: end;
+}
