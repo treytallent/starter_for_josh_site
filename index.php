@@ -28,7 +28,7 @@
                   <div class="col-md-4">
                      <img
                         class="img-fluid"
-                        src="img/port1.jpg"
+                        src="http://170.187.231.66/~mesh20/sub/wp-content/themes/starter_for_josh_site/img/port1.jpg"
                         alt="woman illustration"
                      />
                      <h4 class="article-title font-accent">A PORTRAIT</h4>
@@ -49,7 +49,7 @@
                   <div class="col-md-4">
                      <img
                         class="img-fluid"
-                        src="img/port2.jpg"
+                        src="http://170.187.231.66/~mesh20/sub/wp-content/themes/starter_for_josh_site/img/port2.jpg"
                         alt="3d model showcase"
                      />
                      <h4 class="article-title font-accent">A PORTRAIT</h4>
@@ -65,12 +65,13 @@
                         first of all simply new kinds of knowledge arising from
                         STS study of the arts.
                      </p>
+                     
                      <a class="read-more" href="#">CONTINUE READING</a>
                   </div>
                   <div class="col-md-4">
                      <img
                         class="img-fluid"
-                        src="img/port3.jpg"
+                        src="http://170.187.231.66/~mesh20/sub/wp-content/themes/starter_for_josh_site/img/port3.jpg"
                         alt="3d modelled environment"
                      />
                      <h4 class="article-title font-accent">A PORTRAIT</h4>
