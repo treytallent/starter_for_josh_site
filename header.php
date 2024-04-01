@@ -50,7 +50,9 @@
       />
    </head>
    <body>
-      <header class="container-fluid bg1">
+      <header class="container-fluid bg1" style="background-image: url(<?php the_field(
+          "headerbackgroundimage"
+      ); ?>)">
          <!-- div to hold content in the centre of the page -->
          <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
@@ -82,7 +84,7 @@
 
             </nav>
             <div class="tag font-accent">
-               <h1 class="white">Games Design for the future</h1>
+               <h1 class="white"><?php the_field("maintagline"); ?></h1>
             </div>
             <!-- container -->
          </div>
