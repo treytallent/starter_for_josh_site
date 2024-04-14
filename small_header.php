@@ -46,8 +46,7 @@
 </head>
 
 <body>
-   <header class="container-fluid"
-      style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+   <header class="container-fluid sm-header-hero">
       <!-- div to hold content in the centre of the page -->
       <div class="container">
          <nav class="navbar navbar-expand-md navbar-dark">
@@ -59,7 +58,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Navbar links -->
             <?php wp_nav_menu([
                "theme_location" => "primary",
                "depth" => 2, // 1 = no dropdowns, 2 = with dropdowns.
@@ -72,7 +70,7 @@
             ]); ?>
          </nav>
          <div class="smallpage-tag font-accent">
-            <h1 class="white"><?php the_field("projectsheadertitle"); ?></h1>
+            <!-- <h1 class="white">Games Design for the future</h1> -->
          </div>
          <!-- container -->
       </div>
